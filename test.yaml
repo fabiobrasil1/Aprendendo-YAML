@@ -1,0 +1,50 @@
+# Estrutura de chave/valor
+nome: "fabio"
+idade: "31"
+
+# espaçamento e identação
+objeto: 
+  versao: 2
+  arquivo: "test.txt"
+
+# Numeros
+versao: 2
+versao_completa: 3.14
+
+# Strings
+string_sem_aspas: Digite um texto arquivo
+
+texto: "Este tambem e um texto valido para o YAML" # Não aceita acentos. 
+
+# Para atribuir um valor nulo temos a um chave temos duas opçoes: (~) ou (null) ambos atribuiem o valor None
+nulo: ~
+nulo2: null
+
+# Os valores booleanos podem ser referenciados das seguintes formas oferecendo o mesmo resultado
+verdadeiro: on
+verdadeiro2: True
+
+falso: False
+falso2: off
+
+#listas
+lista: [1,2,3,4,5]
+
+lista2:
+  - "teste"
+  - 1
+  - 2
+  - "outro teste"
+  - 4
+  - 5
+
+# Dicionario
+obj: {a: 1, b: 2, c: 3, d: {x: 2}}
+
+obj2:
+  a: 1
+  b: 2
+  objeto_intero:
+    x: 2
+  
+
